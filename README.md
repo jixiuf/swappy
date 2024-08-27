@@ -70,9 +70,9 @@ fill_shape=false
 <hr>
 
 - `b`: Switch to Brush
-- `t`: Switch to Text
+- `e` `t`: Switch to Text
 - `r`: Switch to Rectangle
-- `o`: Switch to Ellipse
+- `c` `o`: Switch to Ellipse
 - `a`: Switch to Arrow
 - `d`: Switch to Blur (`d` stands for droplet)
 
@@ -86,7 +86,7 @@ fill_shape=false
 - `Plus`: Increase Stroke Size
 - `Equal`: Reset Stroke Size
 - `f`: Toggle Shape Filling
-- `k`: Clear Paints (cannot be undone)
+- `x` `k`: Clear Paints (cannot be undone)
 
 <hr>
 
