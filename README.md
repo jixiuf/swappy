@@ -55,6 +55,7 @@ auto_save=false
 custom_color=rgba(193,125,17,1)
 transparent=false
 transparency=50
+ocr_cmd=tesseract;%s;-
 ```
 
 - `save_dir` is where swappshots will be saved, can contain env variables, when it does not exist, swappy attempts to create it first, but does not abort if directory creation fails
@@ -70,6 +71,7 @@ transparency=50
 - `custom_color` is used to set a default value for the custom color
 - `transparency` is used to set transparency of everything that is drawn during startup
 - `transparent` is used to toggle transparency during startup
+- `ocr_cmd`is used to support OCR functionality, where arguments are separated by ";", and %s serves as a placeholder that will be replaced by the image path.
 
 
 ## Keyboard Shortcuts
